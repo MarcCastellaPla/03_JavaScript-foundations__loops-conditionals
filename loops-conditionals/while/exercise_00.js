@@ -7,3 +7,17 @@
 
     HINT: Be careful of an infinite loop!
 */
+loggedIn = false;
+
+let index = 0
+
+while (!loggedIn) {
+    console.log("Incorrect login credentials")
+
+    if (index === 2) {
+        loggedIn = true;
+    }
+
+    index++
+}
+console.log("Successfully logged in!");
