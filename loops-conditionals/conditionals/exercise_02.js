@@ -6,22 +6,25 @@
 */
 
 const age = 20;
+function checkAge(age) {
+  if (age >= 18) {
+    console.log("Most places consider you an adult.");
+    return;
+  }
+  if (age >= 13) {
+    console.log("Nice, you're a teenager!");
+    return;
+  }
+  if (age >= 3) {
+    console.log("You are in elementary school, kid.");
+    return;
+  }
 
-if (age < 3) {
-  console.log("You're just a baby!");
-  return;
-}
-if (age >= 3) {
-  console.log("You are in elementary school, kid.");
-  return;
-}
-if (age >= 13) {
-  console.log("Nice, you're a teenager!");
-  return;
-}
-if (age >= 18) {
-  console.log("Most places consider you an adult.");
-  return;
-}
+  if (age < 3) {
+    console.log("You're just a baby!");
+    return;
+  }
 
-console.log("What? How did this happen!?");
+  console.log("What? How did this happen!?");
+}
+checkAge(age);
