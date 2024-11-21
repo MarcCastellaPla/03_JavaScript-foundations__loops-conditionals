@@ -11,8 +11,8 @@
 numberVariable = 2
 
 if (numberVariable % 2 === 0) {
-    console.log("The number " + numberVariable  + " is even");
+    console.log(`The number ${numberVariable} is even`);
 }
 if (numberVariable % 2 !== 0) {
-    console.log("The number " + numberVariable  + " is odd");
+    console.log(`The number ${numberVariable} is odd`);
 }
