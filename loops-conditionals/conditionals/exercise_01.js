@@ -8,7 +8,7 @@
     HINT: The modulus operator ( % ) is your friend.
 */
 
-numberVariable = 2
+const numberVariable = 2
 
 if (numberVariable % 2 === 0) {
     console.log(`The number ${numberVariable} is even`);

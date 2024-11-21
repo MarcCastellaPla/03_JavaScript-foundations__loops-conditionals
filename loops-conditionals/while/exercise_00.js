@@ -7,8 +7,8 @@
 
     HINT: Be careful of an infinite loop!
 */
-loggedIn = false;
 
+loggedIn = false;
 let index = 0
 
 while (!loggedIn) {
@@ -20,4 +20,5 @@ while (!loggedIn) {
 
     index++
 }
+
 console.log("Successfully logged in!");

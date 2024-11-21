@@ -18,7 +18,9 @@
     You made it!
     All done!
 */
+
 let loopIndex  = 1;
+
 while (loopIndex <= 100) {
     if (loopIndex % 10 === 0 && loopIndex !== 50 && loopIndex !== 100) {
         console.log(`Checkpoint! ${loopIndex}`)

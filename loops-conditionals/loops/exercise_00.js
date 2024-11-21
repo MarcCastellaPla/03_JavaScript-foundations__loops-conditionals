@@ -4,15 +4,17 @@
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 
+const limit = 40;
+
 // Print even numbers
-for(let index = 10; index <= 40; index++){
+for(let index = 10; index <= limit; index++){
     if (index % 2 === 0) {
         console.log(`The number ${index} is even`);    
     }
 }
 
 // Print odd numbers
-for(let index = 10; index <= 40; index++){
+for(let index = 10; index <= limit; index++){
     if (index % 2 !== 0) {
         console.log(`The number ${index} is odd`);    
     }

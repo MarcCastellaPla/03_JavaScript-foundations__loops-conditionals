@@ -27,4 +27,5 @@ function checkAge(age) {
 
   console.log("What? How did this happen!?");
 }
+
 checkAge(age);

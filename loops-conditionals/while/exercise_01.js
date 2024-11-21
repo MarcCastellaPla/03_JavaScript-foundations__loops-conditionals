@@ -6,6 +6,7 @@
 
 // print out all the even numbers between 10 and 40.
 let indexEvenNumber = 10;
+
 while(indexEvenNumber <= 40) {
 
     if (indexEvenNumber % 2 === 0) {
