@@ -6,6 +6,7 @@
 */
 
 const age = 20;
+
 function checkAge(age) {
   if (age >= 18) {
     console.log("Most places consider you an adult.");
